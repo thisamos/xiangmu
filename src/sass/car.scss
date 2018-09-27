@@ -1,0 +1,123 @@
+#top .container{
+
+    .topnav{
+        height: 30px;
+        background:#EEEEEE;
+        .top_l{
+            float:left;
+            li {
+                line-height:30px;
+                font-size:14px;
+                a{
+                font-size:14px;
+                color:#333;
+            }
+           } 
+        }
+        .top_r{
+            float:right;
+            li{
+                float:left;
+                margin-right:20px;
+                a{
+                    font-size:14px;
+                    color:#333;
+                }
+            }
+        }
+    }
+}
+
+#nav .container{
+    height: 91px;
+    .nav_l{
+        float:left;
+    }
+    .nav_r{
+        margin-left:120px;
+        width: 800px;
+        height: 91px;
+        float:right;
+     
+        a{line-height:91px;}
+    }
+}
+
+#loag .container{
+    height: 36px;
+    background:#eee;}
+
+#gouwuche .container{
+    margin-top:30px;
+    h3{margin-bottom:20px;}
+    tr{
+        border:1px solid #aac;
+        background:#eee;
+        margin-top:20px;
+        font-size:16px;
+        color:#aae;
+    }
+}
+
+#ulxiaotu .container{
+    .xt{
+        width: 1190px;
+        background:#eee;
+        li{
+            height: 81px;
+            // background:#58bc58;
+            border-bottom:1px solid #ddd;
+            img{height: 81px;margin-right:110px;}
+            .url{margin-left:200px;}
+            .jiage{margin-left:150px;}
+            .shuliang{
+                margin-left:60px;
+                .cutnum{
+                    width: 40px;
+                    height: 20px;
+                }
+                .nownum{
+                    width: 30px;
+                    height: 20px;
+                }
+                .addnum{
+                    width:40px;
+                    height: 20px;
+                }
+            }
+            .wu{margin-left:60px;}
+            .xiaoji{margin-left:70px;}
+            .ss{
+                display:inline-block;
+                margin-left:50px;
+                a{ 
+                    margin-top:20px;
+                    color:#000;
+                }
+            }
+        }
+    }
+}
+
+#del .container{
+    height: 89px;
+    background:#eee;
+    ul{
+        float:right;
+        li{ 
+            height: 30px;
+            float:left;
+            line-height:30px;
+            margin-right:20px;
+        }
+    }
+    .kong{
+        height: 40px;
+    }
+    p{
+        height: 40px;
+        line-height:40px;
+        margin-right:20px;
+        float:right;
+    }
+}

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+#deng{
+    width: 990px;
+    height: 428px;
+    margin:60px auto;
+    margin-bottom:0;
+    .denglu {
+        width: 450px;
+        height: 428px;    
+        float:right;
+        .huiyuan{
+            width: 450px;
+            height: 374px;
+            background:url("../images/beijing1.jpg");
+             .form-group{
+                width:300px;
+                height: 55px;
+                margin-left:0;    
+                }
+                .denglubtn{
+                    margin:40px;
+                }
+                span{
+                    margin-left:20px;
+                    a{font-size:14px;color:#f0c;}
+                }
+                }
+       
+    }
+}

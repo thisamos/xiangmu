@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>列表页</title>
+     <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="../css/goods.css" />
+    <link rel="stylesheet" type="text/css" href="../css/list.css" />
+<!--     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" /> -->
+    <script src="../js/jquery-3.2.1.js"></script>
+
+    <script src="../js/list.js"></script>
+</head>
+<body>
+    <div id="lisrgoods">
+        <div id="top"></div>
+        <div id="logo"></div>
+        <div id="nav"></div>
+
+        <div class="n_bar">
+            <p>鞋子<span>(共有<i>120</i>个商品)</span></p>
+        </div>
+        
+        <div class="filterbox">
+
+            <div class="xuanz">
+                <span>你已选择:</span>
+                <a href="" class="pinpai">品牌:<i>耐克</i></a>
+                <a href=""><span>重新筛选</span></a>
+            </div>
+            <div class="leix">
+                <ul class="leixing">
+                    <li class="lx"><a href="">类型:</a></li>
+                    <li><a href="">鞋子</a></li>
+                    <li><a href="">服装</a></li>
+                </ul>
+            </div>
+            <div class="leibie">
+                <ul class="leibie">
+                    <li class="lb"><a href="">类别:</a></li>
+                    <li><a href="">跑步鞋(58) </a></li>
+                    <li><a href="">休闲鞋(78) </a></li>
+                    <li><a href="">篮球鞋(10) </a></li>
+                    <li><a href="">板鞋(13)   </a></li>
+                    <li><a href="">足球鞋(6)  </a></li>
+                    <li><a href="">T恤(27)    </a></li>
+                    <li><a href="">POLO衫(1)  </a></li>
+                    <li><a href="">运动裤(38) </a></li>
+                    <li><a href="">胸衣(7)    </a></li>
+                    <li><a href="">训练鞋(5)  </a></li>
+                    <li><a href="">拖鞋(6)    </a></li>
+                    <li><a href="">夹克(8)    </a></li>
+                    <li><a href="">外套(1)    </a></li>                 
+                </ul>
+            </div>
+            <div class="xingb">
+                <ul class="xingbie">
+                    <li class="xb"><a href="">男(156)</a></li>
+                    <li><a href="">男(156)</a></li>
+                    <li><a href="">女(101)</a></li>
+                    <li><a href="">情侣(3)</a></li>
+                </ul>
+            </div>
+            <div class="chim">
+                <ul class="chima">
+                    <li><a href="">尺码</a></li>
+                    <li><a href="">35.5(36)</a></li>
+                    <li><a href="">36(48)</a></li>
+                    <li><a href="">36.5(55)</a></li>
+                    <li><a href="">37.5(48)</a></li>
+                    <li><a href="">38(49)</a></li>
+                    <li><a href="">38.5(40)</a></li>
+                    <li><a href="">39(36)</a></li>
+                    <li><a href="">40(54)</a></li>
+                    <li><a href="">40.5(43)</a></li>
+                    <li><a href="">41(61)</a></li>
+                    <li><a href="">42(66)</a></li>
+                    <li><a href="">42.5(69)</a></li>
+                    <li><a href="">43(71)</a></li>
+                    <li><a href="">44(64)</a></li>
+                    <li><a href="">44.5(17)</a></li>
+                    <li><a href="">45(23)</a></li>
+                    <li><a href="">46(1)</a></li>
+                    <li><a href="">XS(1)</a></li>
+                    <li><a href="">S(55)</a></li>
+                    <li><a href="">M(67)</a></li>
+                    <li><a href="">L(75)</a></li>
+                    <li><a href="">XL(70)</a></li>
+                    <li><a href="">2XL(31)</a></li>
+                    <li><a href="">21(2)</a></li>
+                    <li><a href="">22(3)</a></li>
+                    <li><a href="">23.5(4)</a></li>
+                </ul>
+            </div>
+            <div class="leibie">
+                <ul class="leibie">
+                    <li class="lb"><a href="">类别:</a></li>
+                    <li><a href="">跑步鞋(58) </a></li>
+                    <li><a href="">休闲鞋(78) </a></li>
+                    <li><a href="">篮球鞋(10) </a></li>
+                    <li><a href="">板鞋(13)   </a></li>
+                    <li><a href="">足球鞋(6)  </a></li>
+                    <li><a href="">T恤(27)    </a></li>
+                    <li><a href="">POLO衫(1)  </a></li>
+                    <li><a href="">运动裤(38) </a></li>
+                    <li><a href="">胸衣(7)    </a></li>
+                    <li><a href="">训练鞋(5)  </a></li>
+                    <li><a href="">拖鞋(6)    </a></li>
+                    <li><a href="">夹克(8)    </a></li>
+                    <li><a href="">外套(1)    </a></li>                 
+                </ul>
+            </div>
+            <div class="leix">
+                <ul class="leixing">
+                    <li class="lx"><a href="">类型:</a></li>
+                    <li><a href="">鞋子</a></li>
+                    <li><a href="">服装</a></li>
+                </ul>
+            </div>
+        </div>        <!--    filterbox结束  -->
+        
+
+        <div class="paix">
+            <ul class="paixu">
+                <li>排序方式:</li>   
+                <li>  
+                    <button class="btn1">价格排序</button>
+                </li>             
+                <li>
+                    <button class="btn2">销量排序</button>
+                </li>
+            </ul>
+        </div>
+
+       
+
+        <div class="zhan">    
+            <button class="zhankai">展开</button>
+        </div>         <!--    zhan结束  -->
+        
+         <div class="shuju">
+                 
+        </div>
+        
+        <div class="dibutu">
+            <ul>
+                <li><a href="#"><img src="../images/adi.jpg"></a></li>
+                <li><a href="#"><img src="../images/anta.jpg"></a></li>
+                <li><a href="#"><img src="../images/asics.jpg"></a></li>
+                <li><a href="#"><img src="../images/dis.png"></a></li>
+                <li><a href="#"><img src="../images/kw.jpg"></a></li>
+                <li><a href="#"><img src="../images/ln.jpg"></a></li>
+                <li><a href="#"><img src="../images/nb.jpg"></a></li>
+                <li><a href="#"><img src="../images/neo.jpg"></a></li>
+                <li><a href="#"><img src="../images/nike.jpg"></a></li>
+                <li><a href="#"><img src="../images/ori.png"></a></li>
+                <li><a href="#"><img src="../images/puma.jpg"></a></li>
+                <li><a href="#"><img src="../images/dis.png"></a></li>
+                <li><a href="#"><img src="../images/rb.jpg"></a></li>
+                <li><a href="#"><img src="../images/skq1.jpg"></a></li>
+                <li><a href="#"><img src="../images/vans.jpg"></a></li>
+                <li><a href="#"><img src="../images/nike.jpg"></a></li>
+                <li><a href="#"><img src="../images/rb.jpg"></a></li>
+                <li><a href="#"><img src="../images/ln.jpg"></a></li>
+                <li><a href="#"><img src="../images/asics.jpg"></a></li>
+                <li><a href="#"><img src="../images/dis.png"></a></li>
+            </ul>
+        </div>
+
+        <div id="bottom">
+            <div class="container">
+                <div class="bottom_l">
+                    <img src="../images/saoma2.png">
+                </div>   
+                <div class="bottom_r">
+                      <ul class="tu">
+                          <li>
+                                <a href="#"><img src="../images/zheng.png" ></a>
+                                <h5>支付方式</h5>
+                                <span>
+                                    <a href="#">在线支付</a><br/>
+                                    <a href="#">货到付款</a><br/>
+                                    <a href="#">发票说明</a><br/>
+                                </span>
+                          </li>
+
+                          <li>
+                                <a href="#"><img src="../images/mam.png"></a>
+                                <h5>售后服务保障</h5>
+                                <span>
+                                    <a href="#">退换货说明</a><br/>
+                                    <a href="#">服务承若</a><br/>
+                                </span>
+                          </li>
+
+                          <li>
+                                <a href="#"><img src="../images/tui.png"></a>
+                                <h5>物流配送</h5>
+                                <span>
+                                    <a href="#">合作快递</a><br/>
+                                    <a href="#">运费说明</a><br/>
+                                    <a href="#">配送时间</a><br/>
+                                </span>
+                          </li>
+
+                          <li>
+                                <a href="#"><img src="../images/huo.png"/></a>
+                                <h5>会员服务</h5>
+                                <span>
+                                    <a href="#">级别和特权</a><br/>
+                                    <a href="#">积分政策</a><br/>
+                                </span>
+                          </li>
+                      </ul>  
+                </div>
+            </div>
+        </div>         <!--    bottom结束  -->
+        <div id="dibu"></div>
+    </div>
+</body>
+</html>

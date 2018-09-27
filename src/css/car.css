@@ -1,0 +1,40 @@
+#top .container .topnav { height: 30px; background: #EEEEEE; }
+#top .container .topnav .top_l { float: left; }
+#top .container .topnav .top_l li { line-height: 30px; font-size: 14px; }
+#top .container .topnav .top_l li a { font-size: 14px; color: #333; }
+#top .container .topnav .top_r { float: right; }
+#top .container .topnav .top_r li { float: left; margin-right: 20px; }
+#top .container .topnav .top_r li a { font-size: 14px; color: #333; }
+
+#nav .container { height: 91px; }
+#nav .container .nav_l { float: left; }
+#nav .container .nav_r { margin-left: 120px; width: 800px; height: 91px; float: right; }
+#nav .container .nav_r a { line-height: 91px; }
+
+#loag .container { height: 36px; background: #eee; }
+
+#gouwuche .container { margin-top: 30px; }
+#gouwuche .container h3 { margin-bottom: 20px; }
+#gouwuche .container tr { border: 1px solid #aac; background: #eee; margin-top: 20px; font-size: 16px; color: #aae; }
+
+#ulxiaotu .container .xt { width: 1190px; background: #eee; }
+#ulxiaotu .container .xt li { height: 81px; border-bottom: 1px solid #ddd; }
+#ulxiaotu .container .xt li img { height: 81px; margin-right: 110px; }
+#ulxiaotu .container .xt li .url { margin-left: 200px; }
+#ulxiaotu .container .xt li .jiage { margin-left: 150px; }
+#ulxiaotu .container .xt li .shuliang { margin-left: 60px; }
+#ulxiaotu .container .xt li .shuliang .cutnum { width: 40px; height: 20px; }
+#ulxiaotu .container .xt li .shuliang .nownum { width: 30px; height: 20px; }
+#ulxiaotu .container .xt li .shuliang .addnum { width: 40px; height: 20px; }
+#ulxiaotu .container .xt li .wu { margin-left: 60px; }
+#ulxiaotu .container .xt li .xiaoji { margin-left: 70px; }
+#ulxiaotu .container .xt li .ss { display: inline-block; margin-left: 50px; }
+#ulxiaotu .container .xt li .ss a { margin-top: 20px; color: #000; }
+
+#del .container { height: 89px; background: #eee; }
+#del .container ul { float: right; }
+#del .container ul li { height: 30px; float: left; line-height: 30px; margin-right: 20px; }
+#del .container .kong { height: 40px; }
+#del .container p { height: 40px; line-height: 40px; margin-right: 20px; float: right; }
+
+/*# sourceMappingURL=car.css.map */

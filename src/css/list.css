@@ -1,0 +1,232 @@
+#lisrgoods
+.n_bar {
+  width: 1174px;
+  border: 1px solid #e5e5e5;
+  background: #f1f1f1;
+  padding-left: 1em;
+  font-size: 14px;
+  font-weight: 700;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+#lisrgoods
+.n_bar span {
+  color: #89a;
+}
+#lisrgoods
+.n_bar span i {
+  color: red;
+}
+
+.filterbox {
+  overflow: hidden;
+  width: 1190px;
+  height: 236px;
+  margin: 0 auto;
+  background: #fff;
+}
+.filterbox .xuanz {
+  height: 1190px;
+  height: 21px;
+  padding: 15px;
+  background: #ccc;
+  border-bottom: 1px dotted #58bc58;
+}
+.filterbox .xuanz span {
+  font-size: 12px;
+  color: #203;
+}
+.filterbox .xuanz .pinpai {
+  width: 100px;
+  margin: 0 30px;
+  font-size: 12px;
+  color: #203;
+}
+.filterbox .xuanz .pinpai i {
+  color: red;
+}
+.filterbox .leix {
+  width: 1190px;
+}
+.filterbox .leix .leixing {
+  height: 40px;
+  padding: 12px 110px 4px 15px;
+  border-bottom: 1px dotted #ccc;
+  white-space: nowrap;
+}
+.filterbox .leix .leixing .lx a {
+  color: #58bc58;
+}
+.filterbox .leix .leixing li {
+  float: left;
+  margin-right: 30px;
+}
+.filterbox .leix .leixing li a {
+  color: #000;
+  font-size: 14px;
+}
+.filterbox .leibie {
+  width: 1190px;
+}
+.filterbox .leibie .leibie {
+  height: 65px;
+  padding: 12px 110px 4px 15px;
+  border-bottom: 1px dotted #ccc;
+  white-space: nowrap;
+}
+.filterbox .leibie .leibie .lb a {
+  color: #58bc58;
+}
+.filterbox .leibie .leibie li {
+  float: left;
+  margin-right: 50px;
+}
+.filterbox .leibie .leibie li a {
+  color: #000;
+  font-size: 14px;
+}
+.filterbox .xingb {
+  width: 1190px;
+}
+.filterbox .xingb .xingbie {
+  height: 40px;
+  padding: 12px 110px 4px 15px;
+  border-bottom: 1px dotted #ccc;
+  white-space: nowrap;
+}
+.filterbox .xingb .xingbie .xb a {
+  color: #58bc58;
+}
+.filterbox .xingb .xingbie li {
+  float: left;
+  margin-right: 50px;
+}
+.filterbox .xingb .xingbie li a {
+  color: #000;
+  font-size: 14px;
+}
+.filterbox .chim {
+  width: 1190px;
+  padding: 12px 110px 4px 15px;
+  border-bottom: 1px dotted #ccc;
+  white-space: nowrap;
+}
+.filterbox .chim .chima {
+  height: 109px;
+}
+.filterbox .chim .chima li:nth-child(1) a {
+  color: #58bc58;
+}
+.filterbox .chim li {
+  float: left;
+  margin-right: 50px;
+}
+.filterbox .chim li a {
+  color: #000;
+  font-size: 14px;
+}
+
+.dibutu {
+  width: 1190px;
+  height: 145px;
+  margin: 20px auto;
+}
+.dibutu ul {
+  width: 1190px;
+  margin: 0 auto;
+}
+.dibutu ul li {
+  float: left;
+  width: 100px;
+  height: 72px;
+}
+
+.shuju {
+  width: 1190px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: url("../images/beijing.jpg");
+}
+.shuju .ulshuju {
+  width: 1190px;
+}
+.shuju .ulshuju li {
+  overflow: hidden;
+  margin: 15px 25px 20px 25px;
+  border: 1px solid #ccc;
+  width: 222px;
+  height: 324px;
+  float: left;
+}
+.shuju .ulshuju li .datu {
+  width: 210px;
+  height: 210px;
+  margin-top: 5px;
+}
+.shuju .ulshuju li .xiaotu {
+  width: 21px;
+  height: 21px;
+  margin: 7px 3px;
+}
+.shuju .ulshuju li .price {
+  height: 20px;
+  margin-bottom: 5px;
+}
+.shuju .ulshuju li .price .yuanjia {
+  margin-left: 30px;
+  color: #bc837a;
+}
+.shuju .ulshuju li .title {
+  height: 20px;
+  line-height: 20px;
+}
+.shuju .ulshuju li .star {
+  height: 20px;
+  color: red;
+  margin-top: 5px;
+}
+.shuju .ulshuju li .category {
+  height: 20px;
+  color: #37cb39;
+  margin-top: 5px;
+}
+
+.paix {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 1190px;
+  border: 1px solid #ccc;
+}
+.paix .paixu {
+  line-height: 41px;
+  height: 41px;
+  margin: 0 auto;
+}
+.paix .paixu li {
+  margin-right: 30px;
+  font-size: 18px;
+  float: left;
+}
+.paix .paixu li button {
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  background: #ccc;
+}
+
+.zhan {
+  width: 610px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-left: 580px;
+}
+.zhan .zhankai {
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  background: #fd9;
+}
+
+/*# sourceMappingURL=list.css.map */

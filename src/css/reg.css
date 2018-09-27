@@ -1,0 +1,11 @@
+#signupform { width: 990px; height: 440px; margin: 0 auto; margin-top: 60px; background: url("../images/beijing1.jpg"); }
+#signupform .zhuce { width: 770px; height: 440px; }
+#signupform .zhuce .form-group { width: 300px; margin: 0 0; }
+#signupform .zhuce .form-group .yonghu { color: #f60; }
+#signupform .zhuce .ok { font-size: 12px; margin-top: 10px; }
+#signupform .zhuce .ok a { margin-left: 20px; font-size: 12px; }
+#signupform .zhuce .yiyou { float: right; border-left: 2px dashed #fc9; width: 270px; height: 400px; padding-left: 50px; background: url("../images/beijing.jpg"); }
+#signupform .zhuce .yiyou h3 { margin-top: 70px; }
+#signupform .zhuce .yiyou .btn { margin: 20px auto; }
+
+/*# sourceMappingURL=reg.css.map */

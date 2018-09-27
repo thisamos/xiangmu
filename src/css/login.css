@@ -1,0 +1,9 @@
+#deng { width: 990px; height: 428px; margin: 60px auto; margin-bottom: 0; }
+#deng .denglu { width: 450px; height: 428px; float: right; }
+#deng .denglu .huiyuan { width: 450px; height: 374px; background: url("../images/beijing1.jpg"); }
+#deng .denglu .huiyuan .form-group { width: 300px; height: 55px; margin-left: 0; }
+#deng .denglu .huiyuan .denglubtn { margin: 40px; }
+#deng .denglu .huiyuan span { margin-left: 20px; }
+#deng .denglu .huiyuan span a { font-size: 14px; color: #f0c; }
+
+/*# sourceMappingURL=login.css.map */

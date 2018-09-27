@@ -1,0 +1,187 @@
+#lisrgoods 
+    .n_bar{
+    width: 1174px;
+    border: 1px solid #e5e5e5;
+    background: #f1f1f1;
+    padding-left: 1em;
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    margin:0 auto;   
+    font-size:12px;
+    span{
+        color:#89a;i{color:red;}
+    }
+    }
+     .filterbox
+    {   
+        overflow:hidden;
+        width: 1190px;
+        height: 236px;
+        margin:0 auto;
+        background:#fff;
+        .xuanz{
+            height: 1190px;
+            height: 21px;
+            padding:15px;
+            background:#ccc;
+            border-bottom: 1px dotted #58bc58;
+            span{font-size:12px;color:#203;}
+            .pinpai{ 
+                width: 100px;
+                margin:0 30px; 
+                font-size:12px;color:#203;
+                i{color:red;}
+            }
+        }//xuanz
+
+        .leix{
+            width: 1190px;
+           
+            .leixing{
+                height: 40px;
+                padding: 12px 110px 4px 15px;
+                border-bottom: 1px dotted #ccc;
+                white-space: nowrap;
+                .lx{a{color:#58bc58;}}
+                li{
+                    float:left;
+                    margin-right:30px;
+                    a{color:#000;font-size:14px;}
+                }
+            }
+        }//leix
+
+        .leibie{
+            width: 1190px;
+            .leibie{
+                height: 65px;
+                padding: 12px 110px 4px 15px;
+                border-bottom: 1px dotted #ccc;
+                white-space: nowrap;
+                .lb{a{color:#58bc58;}}
+                li{
+                    float:left;
+                    margin-right:50px;
+                    a{color:#000;font-size:14px;}
+                }
+            }
+        }//leibie
+        
+        .xingb{width: 1190px;
+            .xingbie{
+                height: 40px;
+                padding: 12px 110px 4px 15px;
+                border-bottom: 1px dotted #ccc;
+                white-space: nowrap;
+                .xb{a{color:#58bc58;}}
+                li{
+                    float:left;
+                    margin-right:50px;
+                    a{color:#000;font-size:14px;}
+                }
+            }
+        }//xingb
+
+        .chim{
+            width: 1190px;
+            padding: 12px 110px 4px 15px;
+            border-bottom: 1px dotted #ccc;
+            white-space: nowrap;
+            .chima{
+                height: 109px;
+                li:nth-child(1){a{color:#58bc58;}}
+            }
+            li{
+                float:left;
+                margin-right:50px;
+                a{color:#000;font-size:14px;}
+            }
+        }
+    }//filterbox结束
+
+    .dibutu{
+    width: 1190px;height: 145px;
+margin:20px auto;
+    ul{ width: 1190px;margin:0 auto;
+        li{
+            float:left;
+            width: 100px;
+            height:72px;
+        }
+    }
+ }
+
+//数据
+  .shuju{
+    width: 1190px;
+    overflow:hidden;
+    
+    margin:0 auto;
+    background:url("../images/beijing.jpg");
+    .ulshuju{
+        width: 1190px;
+        li{ 
+            overflow:hidden;
+            margin:15px 25px 20px 25px;
+            border:1px solid #ccc;   
+            width: 222px;
+            height: 324px;
+            float:left;
+            .datu{width: 210px;height: 210px;margin-top:5px;}
+            .xiaotu{width: 21px;height: 21px;margin:7px 3px;}
+            .price{height: 20px;margin-bottom:5px;
+                .yuanjia{margin-left:30px;color:#bc837a;}}
+            .title{height: 20px;line-height:20px;}
+            .star{
+                height: 20px;
+                color:red;
+                margin-top:5px;
+            }
+            .category{
+                height: 20px;
+                color:#37cb39;
+                margin-top:5px;
+            }
+        }
+    }
+    }//数据
+    .paix{
+    margin:0 auto;
+    margin-top:30px;
+    width: 1190px;
+
+    border:1px solid #ccc;
+    .paixu{
+        line-height:41px;
+        height: 41px;
+        margin:0 auto;
+        li{
+            margin-right:30px;
+            font-size:18px;
+            float:left;
+            button{
+                width: 100px;height: 40px;
+                font-size:18px;
+                background:#ccc;
+            }
+        }
+    }
+   }
+
+  .zhan{
+    width: 610px;
+    margin:0 auto;
+    margin-bottom:20px;
+    padding-left:580px;
+     .zhankai{   
+        font-size:20px;  
+        width: 100px;
+        height: 40px;
+        background:#fd9;      
+  }
+    
+ 
+
+}

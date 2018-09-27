@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#signupform{
+    width: 990px;
+    height: 440px;
+    margin:0 auto;
+    margin-top:60px;
+    background:url("../images/beijing1.jpg");
+    .zhuce{   
+        
+        width:770px;height:440px; 
+    .form-group{
+        width:300px;
+        margin:0 0;
+        .yonghu{color:#f60;}
+    }
+
+    .ok{
+
+        font-size:12px;
+        margin-top:10px;
+        a{margin-left:20px;font-size:12px;}
+    }
+
+    .yiyou{
+        float:right;    
+        border-left:2px dashed #fc9;
+        width: 270px;
+        height: 400px;
+        padding-left:50px;
+        background:url("../images/beijing.jpg");
+        h3{margin-top:70px;}
+        .btn{margin:20px auto;}
+    }
+
+    }
+}

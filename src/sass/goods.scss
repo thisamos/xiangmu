@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+#Navigation{
+    height: 40px;
+    margin-top:5px;
+    .container{
+        height: 40px;
+        .dangqian{
+            color:#ccc;
+            font-size:14px;
+            a{
+                color:#ccc;
+                font-size:14px;
+                line-height:40px;
+            }
+        }
+    }
+}
+
+#fangda{
+    
+    .container{
+    height: 500px;
+    position:relative;//放大镜可以用
+    
+    .pic{
+            // background:red;
+            width: 400px;
+            height: 400px;
+            float:left;
+            ul{
+                li{
+                    width:400px;height: 400px;
+                    img{width:400px;height: 400px;}
+                  }
+              }           
+            }
+
+     .wenzi{
+            width: 780px;
+            height: 400px;
+            float:right;
+            h3{ margin-bottom:10px;          
+                font-size:16px;
+                border-bottom:1px dashed #ccc;
+            }
+            .yuanjia{
+                margin-bottom:10px;  
+                font:14px;
+            }
+            .xianjia{
+                color:red;
+                margin-bottom:10px;  
+            }
+            .haoping{
+                letter-spacing:5px;
+                margin-top:10px;
+                a{font-size:13px;} 
+            }
+            .yunfei{
+                border-bottom:1px dashed #F5F5F5;
+                margin-top:20px;          
+                font-size:16px;
+            }
+            .chuxiao{
+                margin:10px 0;
+                background:#EACABD;
+                color:red;
+            }
+            .chima{
+                background:#F5F5F5;
+                padding-bottom:30px;
+
+                .cutnum{width: 50px;
+                    height: 50px;
+                    border:1px solid #fc8;
+                    margin-left:20px;
+                }
+                .addnum{
+                    width: 50px;
+                    height: 50px;
+                    border:1px solid #fc8;
+                }
+                .nownum{width: 20px;height: 20px;}
+                .color{ word-spacing:30px;}
+                a{
+                    margin:0 20px;
+                    border:1px solid #fcf;
+                }
+                p{margin-top:10px;}
+            }
+    
+            .goumai{
+                font-size:14px;
+                margin-bottom:8px;
+                .ljgm{margin:0 40px 0 100px;}
+            }
+
+            .baoz{
+                margin-top:10px;
+                img{margin:0 15px;}
+            }
+         }//weinzi结束
+
+     .ullist{
+        width: 380px;
+        height: 50px;
+        padding-left:20px;
+        li{
+            float:left;
+            margin-right:20px;
+            img{
+                width: 50px;height: 50px;
+            }
+         }
+       }  
+    }
+ }
+ 
